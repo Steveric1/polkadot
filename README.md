@@ -257,5 +257,30 @@ This event tells the system that a user stored a message.
 
 ---
 
+
+## How to Test Your Substrate Blockchain
+1. Unit Testing
+- Write Rust unit tests inside your pallets.
+- Use Rust’s built-in testing framework (#[test]) to test individual functions and logic.
+- Run tests with
+
+```bash
+cargo test
+```
+
+2. Using Substrate Front-End Template
+- Connect your node to the Substrate Front-End Template.
+- It’s a React-based UI where you can manually interact with your blockchain (submit transactions, query storage).
+- Great for manual functional testing.
+
+3. Command-Line Tools
+- Substrate Node CLI
+Run your node locally and interact via the command line.
+
+- Polkadot.js Apps
+Web-based UI to interact with any Substrate-based chain.
+Access at: https://polkadot.js.org/apps
+
+
 ### ✅ You’ve Just Built a Simple Web3 Blockchain with Substrate!
 
